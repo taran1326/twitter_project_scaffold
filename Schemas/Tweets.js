@@ -1,3 +1,19 @@
-//name the schema as TweetsSchema and collection as 'tb_tweets'
+
+
+const TweetsSchema = new Schema({
+    title: {
+       
+    },
+
+    bodyText: {
+       
+    },
+    userId: {
+       
+    },
+    creationDatetime: {
+        
+    }
+});
 
 module.exports = mongoose.model('tb_tweets', TweetsSchema);
