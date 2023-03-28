@@ -1,3 +1,3 @@
-function cleanUpndValidate ({name , username , password , email, phone}) {
-
+function cleanUpndValidate ({/*Arguements*/}) {
+    //validates the user according to problem statement
 };
