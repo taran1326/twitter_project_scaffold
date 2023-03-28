@@ -1,4 +1,7 @@
 //template schema has been given for help, please define properties for the given
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
 const userSchema = new Schema({
     username: {
       
